@@ -20,7 +20,6 @@ class Dictionary {
 
     func value(key: Int) -> String {
         if let index = keys.firstIndex(of: key) {
-            keys[index] = key
             return values[index]
         } else {
             return "This key has not a specified value."
